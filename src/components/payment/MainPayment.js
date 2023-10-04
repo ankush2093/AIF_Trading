@@ -1,14 +1,13 @@
 import React from 'react';
- import { Navigate, useNavigate } from 'react-router-dom';
 import '../payment/payment.css'
 
 
 
 const MainPayment = () => {
-  const razorpayKey = process.env.REACT_APP_RAZORPAY_KEY;
+  
 
 
-  const Navigate = useNavigate(); // Initialize useHistory
+   // Initialize useHistory
 
   // const handlePayment = () => {
 
