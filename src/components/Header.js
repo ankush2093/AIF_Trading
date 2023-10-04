@@ -22,7 +22,7 @@ opacity: 10,
     <div className='' >    
       <nav className="navbar">
       <Link  to='/'> <div className="logo">
-        <img src={WebSiteLogo}></img> </div></Link>
+        <img alt='logo' src={WebSiteLogo}></img> </div></Link>
       <ul className="nav-links">
         <li> 
           <NavLink to='/'><a

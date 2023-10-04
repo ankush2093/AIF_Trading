@@ -35,7 +35,7 @@ const StudentReviewSlider = () => {
                 className="swiper_container"
             >
                 <SwiperSlide>
-                    <img src={Rajeshimg}></img>
+                    <img alt='logo' src={Rajeshimg}></img>
                     <div className='student-details'>
                         <h5 className='student-name'> Review by Rajesh S.</h5>
                         <p className='student-feedback'>
@@ -57,7 +57,7 @@ const StudentReviewSlider = () => {
 
 
                 <SwiperSlide>
-                    <img src={Emilyimg}></img>
+                    <img alt='logo' src={Emilyimg}></img>
                     <div className='student-details'>
                         <h5 className='student-name'>Review by Emily L.</h5>
                         <p className='student-feedback'>
@@ -78,7 +78,7 @@ const StudentReviewSlider = () => {
 
 
                 <SwiperSlide>
-                    <img src={Davidimg}></img>
+                    <img alt='logo' src={Davidimg}></img>
                     <div className='student-details'>
                         <h5 className='student-name'> Review by David M.</h5>
                         <p className='student-feedback'>
@@ -98,7 +98,7 @@ const StudentReviewSlider = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img src={Priyaimg}></img>
+                    <img alt='logo' src={Priyaimg}></img>
                     <div className='student-details'>
                         <h5 className='student-name'> Review by Priya G.</h5>
                         <p className='student-feedback'>
@@ -119,7 +119,7 @@ const StudentReviewSlider = () => {
 
 
                 <SwiperSlide>
-                    <img src={Aleximg}></img>
+                    <img alt='logo' src={Aleximg}></img>
                     <div className='student-details'>
                         <h5 className='student-name'>Review by Alex P</h5>
                         <p className='student-feedback'>
@@ -140,7 +140,7 @@ const StudentReviewSlider = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img src={Lisaimg}></img>
+                    <img alt='logo' src={Lisaimg}></img>
                     <div className='student-details'>
                         <h5 className='student-name'>Review by Lisa W</h5>
                         <p className='student-feedback'>
@@ -161,7 +161,7 @@ const StudentReviewSlider = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img src={Rohitimg}></img>
+                    <img alt='logo' src={Rohitimg}></img>
                     <div className='student-details'>
                         <h5 className='student-name'>Review by Rohit B.</h5>
                         <p className='student-feedback'>
@@ -182,7 +182,7 @@ const StudentReviewSlider = () => {
 
 
                 <SwiperSlide>
-                    <img src={Michael}></img>
+                    <img alt='logo' src={Michael}></img>
                     <div className='student-details'>
                         <h5 className='student-name'>Review by Michael H.</h5>
                         <p className='student-feedback'>
@@ -203,7 +203,7 @@ const StudentReviewSlider = () => {
 
 
                 <SwiperSlide>
-                    <img src={Tinaimg}></img>
+                    <img alt='logo' src={Tinaimg}></img>
                     <div className='student-details'>
                         <h5 className='student-name'>Review by Tina R</h5>
                         <p className='student-feedback'>

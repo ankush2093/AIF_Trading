@@ -3,7 +3,6 @@ import "../CSS/Aboutus.css";
 import myMisson from '../img/missions.png';
 import aboutMe from '../img/aboutme.png';
 import viSion from '../img/visons.png';
-import StudentReviewSlider from './slider_rating/StudentReviewSlider';
 import OwnerLogo from '../img/ownerlogo.jpeg'
 
 const Aboutus = () => {
@@ -29,7 +28,7 @@ const Aboutus = () => {
                 <div className='content-box'>
 
                     <div className='testdemp'>
-                        <img className='logo-of-missons' src={myMisson}></img>
+                        <img alt='misson' className='logo-of-missons' src={myMisson}></img>
                         <h4>Misson</h4>
                     </div>
                     <p className='missonandvissoncontent'> Our mission at AIF Trading Academy is crystal clear: to create 10 million independent stock market traders in India. We are driven by the belief that financial independence is attainable through education and skill development. By imparting valuable knowledge and fostering a community of traders, we aim to transform lives and contribute to the economic growth of our nation. Our relentless dedication to this mission is what fuels our passion and commitment every day.</p>
@@ -39,7 +38,7 @@ const Aboutus = () => {
                 <div className='content-box'>
 
                     <div className='testdemp'>
-                        <img className='logo-of-missons' src={viSion}></img>
+                        <img alt='logoofmissons' className='logo-of-missons' src={viSion}></img>
                         <h4>Vision</h4> </div>
                     <p className='missonandvissoncontent'>Our vision is to be the leading catalyst for financial empowerment in India. We envision a future where individuals from all walks of life have the confidence and expertise to navigate the complexities of the stock market. By making 10 million independent stock market traders, we aim to create a ripple effect of economic prosperity, innovation, and financial security across the country. Our vision is not just a dream; it's a roadmap that guides every action we take.</p>
 
@@ -50,7 +49,7 @@ const Aboutus = () => {
 
             <div className="founder-container">
                 <div className="founder-image">
-                    <img src={OwnerLogo} alt="Founder" />
+                    <img  src={OwnerLogo} alt="Founder" />
                 </div>
                 <div className="founder-details">
                     <h2>Founder & CEO Faizan Khan</h2>

@@ -7,7 +7,7 @@ const ErrorPage = () => {
   return (
     <>
     <div className='main-pagenot'>
-      <img src={PageNotFound}></img>
+      <img alt='errorpagelogo' src={PageNotFound}></img>
     </div>
 
 <div className='errpagebtn'>

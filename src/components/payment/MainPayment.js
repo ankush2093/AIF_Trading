@@ -1,7 +1,7 @@
 import React from 'react';
  import { Navigate, useNavigate } from 'react-router-dom';
 import '../payment/payment.css'
-import WebLgo from '../../img/my1st pic.png'
+
 
 
 const MainPayment = () => {
