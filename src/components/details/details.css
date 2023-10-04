@@ -1,0 +1,55 @@
+.details_content{
+    text-align: center;
+    margin: 5rem;
+}
+.details_content h1{
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap; /* Allows children to wrap to the next line when needed */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+.child{
+    padding: 20px;
+  flex: 1;
+  justify-items: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.child img {
+    max-width: 30%;
+    
+  }
+
+  .contentdivtxt h6{
+    font-weight: bolder;
+    margin-top: 0.8rem;
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .contentdivtxt p{
+    text-align: left;
+  }
+
+
+  @media (max-width: 767px) {
+    .parent {
+      flex-direction: column; /* Stack children vertically */
+    }
+    .parent {
+        margin-bottom: 10px; /* Add spacing between child elements */
+      }
+      .details_content{
+        margin: 2rem;
+        text-align: left;
+      }
+}

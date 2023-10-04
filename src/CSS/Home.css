@@ -1,0 +1,202 @@
+
+.centered-content {
+  text-align: center;
+  color: aliceblue;
+ 
+
+}
+
+
+
+
+
+.centered-content h1 {
+  /* Optional: Additional styles for the header if needed */
+  padding-top: 13rem;
+  font-size: 60px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #82cd0a 29%,
+    #ff1361 67%,
+    #fff800 100%
+
+  );
+
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+ 
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.centered-content p {
+  margin-top: 1rem;
+  font-size: 25px;
+  padding-bottom: 12rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span {
+  color: rgb(173, 243, 76);
+
+}
+
+.new i {
+  color: green;
+}
+
+
+.content-main-box {
+  display: flex;
+  flex-wrap: wrap;
+  /* Allows children to wrap to the next line when needed */
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.content-box {
+  padding: 10px;
+  flex: 1;
+}
+
+.btnknowmore{
+  margin-top: 2rem;
+  margin-left: 4rem;
+  height: 3rem;
+  padding-top: 2px;
+  width: 8rem;
+  background-color: #775dd8;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bolder;
+  color: #11dbc4;
+  border: 4px solid rgb(227, 195, 50);
+  
+ 
+}
+
+
+.btnknowmore:hover{
+  background-color: #2de069;
+  color: black;
+
+
+}
+/* Our Supports */
+.Our-Supports-main-box {
+  display: flex;
+  flex-wrap: wrap;
+  /* Allows children to wrap to the next line when needed */
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.databox {
+  text-align: center;
+  padding: 20px;
+  flex: 1;
+  border: 2px saddlebrown !important;
+}
+
+.databox i {
+  font-size: 3rem;
+  color: red;
+}
+
+.databox p {
+  font-weight: 500;
+}
+
+/* Chat with us on whats aap */
+.chatwith-us {
+  background: linear-gradient(to bottom, rgb(24, 165, 22),  rgb(38, 220, 38));
+  height: 2.8rem;
+  width: 10rem;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+  margin: 2rem;
+  padding: .5rem;
+  margin-left: 50%;
+  cursor: pointer;
+}
+.chatwith-us a{
+  text-decoration: none;
+  color: white;
+}
+
+.chatwith-us i {
+  font-size: 1.6rem;
+}
+
+.chat-text {
+  color: white;
+  margin-top: 18px;
+
+}
+/* blinking button */
+/* BlinkingButton.css */
+.offer-btn-main-div{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.blink-button {
+  background-color: #FF5733;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  animation: blink 2s infinite; 
+  cursor: pointer;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+@media (max-width: 767px) {
+  .content-main-box {
+    flex-direction: column;
+    /* Stack children vertically */
+  }
+
+  .databox {
+    margin-bottom: 10px;
+    /* Add spacing between child elements */
+  }
+}

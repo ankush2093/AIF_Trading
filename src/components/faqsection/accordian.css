@@ -1,0 +1,63 @@
+.main-div{
+
+/* max-height: 100%;
+width: auto;
+padding: 10rem;
+/* align-items: center;
+justify-content: center;
+text-align: center; */ 
+padding: 2rem;
+
+
+}
+.main-heading{
+    position: relative;
+    padding-top: 1rem;
+   
+}
+.main-heading p{
+    position: absolute;
+    padding-right: 6rem;
+    padding-top: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+
+   
+ 
+}
+.main-heading h3{
+   
+  padding-left: 2rem;
+  border-top: 2px solid rgb(186, 180, 180);    /* Add a top border */
+  border-left: 2px solid  rgb(186, 180, 180); /* Add a left border */
+  border-right: 2px solid  rgb(186, 180, 180); /* Add a right border */
+  border-bottom: none; 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  /* color: rgb(78, 78, 251); */
+  font-size:x-large;
+  font-weight: bold;
+  background: -webkit-linear-gradient(rgb(225, 115, 13), rgb(6, 97, 87));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.answersof{
+    font-weight: bold;
+    font-size: 1rem;
+    padding-left: 2.5rem;
+    border-top: none;    /* Add a top border */
+    border-left: 2px solid  rgb(186, 180, 180); /* Add a left border */
+    border-right: 2px solid  rgb(186, 180, 180);
+    border-bottom: 2px solid  rgb(186, 180, 180); /* Add a right border */
+}
+  
+ 
+  
+
+  
+ 
+  
+
+

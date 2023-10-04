@@ -1,0 +1,12 @@
+.social-div{
+    
+    font-size: 30px;
+    background: linear-gradient(to right,rgb(18, 140, 188),rgb(232, 81, 106));
+  -webkit-background-clip: text; /* For compatibility with some web browsers */
+  background-clip: text;
+  color: transparent;
+}
+
+
+
+  

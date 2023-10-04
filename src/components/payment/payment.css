@@ -1,0 +1,19 @@
+.main_pay_dv h5{
+    font-weight: bolder;
+    color: rgb(5, 4, 59);
+    margin-top: 2rem;
+}
+
+.btnpay{
+    height: 2.5rem;
+    width: 7rem;
+    font-weight: 800;
+    background-color: rgb(20, 179, 200);
+    border-radius: 20px;
+    border-color: black;
+    
+
+}
+.btnpay:hover{
+    background-color: greenyellow;
+}

@@ -1,0 +1,57 @@
+
+  /* Navbar.css */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    opacity: calc(80%);
+    color: #201414;
+    padding: 1rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .logo img{
+    height: 80px;
+    width: 120px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    
+  }
+  
+  .nav-links li {
+    margin: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .nav-links :hover{
+    color:rgb(13, 73, 104);
+    cursor: pointer;
+  }
+  /* Media Query for Responsive Design */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+  
+
+  .nav-links a.active {
+    font-weight: bold;
+    color: green /* Change the color to highlight the active link */
+  }

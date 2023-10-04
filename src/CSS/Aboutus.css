@@ -1,0 +1,111 @@
+
+  .content-main-box{
+    display: flex;
+    flex-wrap: wrap; /* Allows children to wrap to the next line when needed */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   
+
+  }
+
+  .content-box{
+    padding: 20px;
+  flex: 1;
+  }
+  .aboutusimages{
+    max-width: 100%;
+    height: auto;
+ 
+
+  }
+  .aboutuscontent{
+    /* padding: 1em; */
+    padding-right: 3em;
+  }
+  .aboutheader{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    padding-bottom: 3px;
+    
+  }
+/* missons sections */
+
+.misson-visson-header{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+.testdemp{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.missonandvissoncontent{
+  padding: 2rem;
+}
+
+
+
+/* founder section */
+.founder-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.founder-image {
+  margin-top: 1rem;
+  width: 300px; /* Set a fixed width for the circular image */
+  height: 300px; /* Set a fixed height for the circular image */
+  border-radius: 50%; /* Make the image circular */
+  overflow: hidden; /* Hide any content outside the circular shape */
+  margin-bottom: 20px; /* Add space between the image and content */
+}
+
+.founder-image img {
+  max-width: 100%; /* Ensure the image scales down to fit the container */
+  height: auto; /* Maintain the image's aspect ratio */
+}
+
+.founder-details, .student-review {
+  width: 100%;
+  max-width: 800px; /* Set a maximum width for the content */
+  padding: 20px;
+  box-sizing: border-box;
+  text-align:left;
+
+}   
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 767px) {
+    .content-main-box {
+      flex-direction: column; /* Stack children vertically */
+    }
+  
+    .content-box {
+      margin-bottom: 10px; /* Add spacing between child elements */
+    }
+    .missonandvissoncontent{
+      padding: 0rem;
+    }
+
+    .founder-container {
+      flex-direction: column;
+      justify-content: space-around;
+    }
+   
+  }
+
