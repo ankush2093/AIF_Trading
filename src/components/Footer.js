@@ -85,7 +85,7 @@ const Footer = () => {
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
-                Gola Rd, Bakarganj, Patna, Bihar 800004
+                A-1183 N.S.MAzadpur Delhi-33, Azadpur, New Delhi, Delhi 110033
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
