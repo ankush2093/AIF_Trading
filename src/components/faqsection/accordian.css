@@ -34,10 +34,10 @@ padding: 2rem;
   border-right: 2px solid  rgb(186, 180, 180); /* Add a right border */
   border-bottom: none; 
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  /* color: rgb(78, 78, 251); */
+  color: rgb(11, 11, 12);
   font-size:x-large;
   font-weight: bold;
-  background: -webkit-linear-gradient(rgb(225, 115, 13), rgb(6, 97, 87));
+  /* background: -webkit-linear-gradient(rgb(225, 115, 13), rgb(6, 97, 87)); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
