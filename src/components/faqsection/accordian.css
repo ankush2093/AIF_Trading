@@ -38,8 +38,8 @@ padding: 2rem;
   font-size:x-large;
   font-weight: bold;
   /* background: -webkit-linear-gradient(rgb(225, 115, 13), rgb(6, 97, 87)); */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
   
 }
 
