@@ -110,7 +110,7 @@ const Header = () => {
 
           <li>
             <NavLink to="/Carrier" onClick={() => handleLinkClick('Carrier')}>
-              Carrier
+            Career
             </NavLink>
           </li>
 
