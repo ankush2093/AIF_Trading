@@ -22,7 +22,7 @@ const Details = () => {
                     <img alt='logo' src='https://www.niftytradingacademy.com/img/money-purple.svg'></img>
                     <div className='contentdivtxt'>
                         <h6>100% Money Back Guarantee*</h6>
-                        <p>Nifty Trading Academy is the only online share market training class that guarantees you excellence in stock market trading or a 100% money-back facility.</p>
+                        <p>AIF Trading Academy is the only online share market training class that guarantees you excellence in stock market trading or a 100% money-back facility.</p>
 
                     </div>
                 </div>
