@@ -49,11 +49,11 @@ const MainPayment = () => {
   return (
     <div className='main_pay_dv'>
 
-      <h5>Price Only: ₹10,000</h5>
+      <h5>Price Only: ₹59999 + GST</h5>
     
 
       {/* <button  className='btnpay' onClick={handlePayment} >Enroll Now </button> */}
-     <a href='https://rzp.io/l/5BMeVdYsGe' target='blank'>  <button  className='btnpay'  >Enroll Now </button> </a>
+     <a href='https://rzp.io/l/J3GOFcfb' target='blank'>  <button  className='btnpay'  >Enroll Now </button> </a>
     </div>
   )
 }
